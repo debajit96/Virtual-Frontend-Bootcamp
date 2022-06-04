@@ -120,6 +120,14 @@ nav {
 }
 
 /* Instructures Section */
+#instructors .educators {
+  transition: 3s;
+}
+
+#instructors .educators:hover {
+  transform: rotate(360deg);
+}
+
 #instructors i:hover {
   color: darkcyan !important;
 }
